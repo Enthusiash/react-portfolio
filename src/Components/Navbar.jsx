@@ -1,7 +1,7 @@
 import React from 'react';
 
 // IMAGES //
-import Ash from '../assets/AshLogo-01.png';
+import Ash from '../assets/AshLogo01.png';
 
 // CSS //
 import '../Styles/Navbar.css';

@@ -4,7 +4,7 @@ import React from 'react'
 import  '../Styles/Home.css'
 
 // IMAGES //
-import Profile from '../assets/formal-pic.png'
+import Profile from '../assets/formalpic.png'
 
 const Header = () => {
 
