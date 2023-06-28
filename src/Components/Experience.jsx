@@ -4,7 +4,7 @@ import '../Styles/Experience.css'
 
 import CHARS from '../assets/CHARS.png'
 import SimpleCRUD from '../assets/SimpleCRUD.png'
-import QA from '../assets/QA-Testing.png'
+import QA from '../assets/QATesting.png'
 
 import ReactIcon from '../assets/react-icon.png'
 import MUI from '../assets/mui-logo.png'
