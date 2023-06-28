@@ -1,0 +1,52 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.home,
+.experience,
+.about {
+    text-decoration: none;
+    color: #DDB892;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+}
+.home:hover {
+    background-color: #ede0d4;
+}
+.experience:hover {
+    background-color: #ede0d4;
+}
+.about:hover {
+    background-color: #ede0d4;
+}
