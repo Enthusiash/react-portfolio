@@ -41,6 +41,7 @@
 .ballball {
     width: 382px;
     height: 300px;
+    border-radius: 5%;
 }
 .about-2ndcontainer .code-logo{
     display: flex;
@@ -49,6 +50,7 @@
 .codecode {
     width: 380px;
     height: 300px;
+    border-radius: 5%;
 }
 .about-paragraph {
     font-family: 'Belanosima', sans-serif;
