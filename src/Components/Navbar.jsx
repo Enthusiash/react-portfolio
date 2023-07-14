@@ -7,6 +7,7 @@ import Ash from '../assets/AshLogo01.png';
 import '../Styles/Navbar.css';
 
 const Navbar = () => {
+
   return (
     <nav className="navbar">
       
@@ -27,6 +28,7 @@ const Navbar = () => {
         </a>
 
       </ul>
+
     </nav>
   );
 };

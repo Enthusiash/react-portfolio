@@ -63,3 +63,37 @@
     padding-top: 40px;
     letter-spacing: 2px;
 }
+@media (max-width: 414px) {
+    #about-section {
+        height: auto;
+    }
+    #about-title {
+        padding: 0 0 50px 135px;
+        margin-top: 50px;
+    }
+    .about-container {
+        flex-direction: column;
+        row-gap: 0;
+    }
+    .about-paragraph {
+        font-size: 13px;
+        height: auto;
+    }
+    .about-1stcontainer {
+        width: 100%;
+        height: 550px;
+        border: none;
+    }
+    .about-2ndcontainer {
+        width: 100%;
+        height: 550px;
+    }
+    .ballball {
+        width: 300px;
+        height: 200px;
+    }
+    .codecode {
+        width: 300px;
+        height: 200px;
+    }
+}

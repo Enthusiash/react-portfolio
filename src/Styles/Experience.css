@@ -98,7 +98,8 @@
 }
 .icons {
     width: 60px;
-    height: 50px;}
+    height: 50px;
+}
 .btn-btn {
     display: flex;
     justify-content: center;
@@ -116,4 +117,53 @@
 }
 .button-view:hover {
     background-color: #b08968;
+}
+@media (max-width: 414px) {
+    #experience-section {
+        height: auto;
+    }
+    #experience-title {
+        padding: 0 0 50px 100px;
+        margin-top: 50px;
+    }
+    #experience-body {
+        flex-direction: column;
+        row-gap: 0;
+    }
+    .charschars {
+        width: 300px;
+        height: 200px;
+    }
+    .first-text {
+        font-size: 13px;
+    }
+    .paragraphs {
+        font-size: 13px;
+        height: auto;
+    }
+    .icons {
+        width: 40px;
+        height: 40px;
+    }
+    .first-container {
+        width: 100%;
+        height: 550px;
+    }
+    .crudcrud {
+        width: 300px;
+        height: 200px;
+    }
+    .second-container {
+        width: 100%;
+        height: 550px;
+        border: none;
+    }
+    .third-container {
+        width: 100%;
+        height: 550px;
+    }
+    .qaqa {
+        width: 300px;
+        height: 200px;
+    }
 }

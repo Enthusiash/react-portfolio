@@ -50,3 +50,14 @@
 .about:hover {
     background-color: #ede0d4;
 }
+@media (max-width: 414px) {
+    .logo
+    {
+        display: none;
+    }
+    .nav-links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

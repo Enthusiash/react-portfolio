@@ -49,3 +49,34 @@
     border: 2px solid #583101;
     border-radius: 50%;
 }
+@media (max-width: 414px) {
+    .footer-section {
+        height: auto;
+    }
+    .copyright-logo .c-logo {
+        display: none;
+        
+    }
+    .social-icons p {
+        display: none;
+    }
+    .section1 {
+        width: 50%;
+    }
+    .section2 {
+        width: 50%;
+    }
+    .copyright-logo {
+        padding: 0;
+    }
+    .footer-text {
+        font-size: 10px;
+    }
+    .c-logo {
+        width: 20px;
+    }
+    .social-icons {
+        padding: 0 15px 0 0;
+        column-gap: 20px;
+    }
+}
