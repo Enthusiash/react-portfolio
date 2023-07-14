@@ -68,8 +68,9 @@
         height: auto;
     }
     #about-title {
-        padding: 0 0 50px 135px;
-        margin-top: 50px;
+        padding: 0;
+        margin: 50px 0 50px 0;
+        justify-content: center;
     }
     .about-container {
         flex-direction: column;
