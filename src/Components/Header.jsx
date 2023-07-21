@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ResumeBTN from '../assets/Otchengco-Ashley-G.pdf'
+
 // STYLE //
 import  '../Styles/Home.css'
 
@@ -21,7 +23,9 @@ const Header = () => {
       </div>
 
       <div className="resume-btn">
-        <button className="resume">Resume</button>
+        <a href={ResumeBTN} target='_blank'>
+        <button className="resume">RESUME</button>
+        </a>
       </div>
                    
     </div>
