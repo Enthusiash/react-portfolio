@@ -1,5 +1,7 @@
 import React,{ useState } from 'react'
 
+import Footer from './Components/Footer'
+
 // FOR ROUTING //
 import { BrowserRouter } from 'react-router-dom'
 
@@ -16,6 +18,7 @@ const App = () => {
            <div className='main'>
              <Routing />
             </div>
+            <Footer />
       </div>
     </BrowserRouter>
   );
