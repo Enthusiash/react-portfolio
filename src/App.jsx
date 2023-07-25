@@ -9,6 +9,8 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Routing from './Components/Routing'
 
+import ScrollToTopButton from './Components/ScrollToTop';
+
 const App = () => {
 
   return (
@@ -18,6 +20,7 @@ const App = () => {
            <div className='main'>
              <Routing />
             </div>
+            <ScrollToTopButton />
             <Footer />
       </div>
     </BrowserRouter>

@@ -13,20 +13,20 @@ const Footer = () => {
 
       <div className="section1">
         <div className="copyright-logo">
-        <img className="c-logo" src={Copyright} alt='copyright'></img>
+          <img className="c-logo" src={Copyright} alt='copyright'></img>
         </div>
 
         <p className="footer-text">2023, build and designed by Ashley G. Otchengco</p>
 
-    </div>
+      </div>
 
       <div className="section2">
-      <div className="social-icons">
-      <p>ashleyotchengco@gmail.com / +63-912-217-1667</p>
-      <a target="_blank" href="https://www.facebook.com/ashley.otchengco.9/"><img className="c-logo" src={Facebook} alt='facebook'></img></a>
-      <a target="_blank" href="https://github.com/Syntaxsh"><img className="c-logo" src={Github} alt='github'></img></a>
-      <a target="_blank" href="https://www.linkedin.com/in/ashley-otchengco-341901278/"><img className="c-logo" src={LinkedIn} alt='Linkeln'></img></a>
-      </div>
+        <div className="social-icons">
+          <p>ashleyotchengco@gmail.com / +63-912-217-1667</p>
+          <a target="_blank" href="https://www.facebook.com/ashley.otchengco.9/"><img className="c-logo" src={Facebook} alt='facebook'></img></a>
+          <a target="_blank" href="https://github.com/Syntaxsh"><img className="c-logo" src={Github} alt='github'></img></a>
+          <a target="_blank" href="https://www.linkedin.com/in/ashley-otchengco-341901278/"><img className="c-logo" src={LinkedIn} alt='Linkeln'></img></a>
+        </div>
       </div>
 
     </div>
