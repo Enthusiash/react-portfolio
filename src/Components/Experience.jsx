@@ -10,6 +10,7 @@ import ReactIcon from '../assets/react-icon.png'
 import MUI from '../assets/mui-logo.png'
 import AntD from '../assets/ant-design.png'
 import MongoDB from '../assets/mongodb-logo.png'
+import ManualTesting from '../assets/manualTesting.png'
 
 const Experience = () => {
   return (
@@ -87,6 +88,9 @@ const Experience = () => {
             </div>
 
             <div className="frameworks">
+              <div>
+                <img className="icons" src={ManualTesting} alt='manual'></img>
+              </div>
             </div>
 
             <div className="btn-btn">
