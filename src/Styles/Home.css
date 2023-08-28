@@ -6,29 +6,38 @@
     height: 890px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    column-gap: 100px;
+}
+.left-container {
+    margin-bottom: 70px;
+}
+.phflag {
+    width: 30px;
+    height: auto;
 }
 .ashlogo .ashash {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%; 
-    margin-top: 160px;
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 70px;
 }
 .text {
     color: #DDB892;
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 40px;
 }
 .text h1 {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 8px;
-    font-size: 64px;
+    letter-spacing: 7px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 .text h2 {
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 5px;
-    font-size: 27px;
-    margin-top: 5px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 .resume {
     background-color: #DDB892;
