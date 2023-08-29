@@ -14,7 +14,11 @@ const Header = () => {
   return (
     <div className="main-container">
 
-      <div className="left-container">
+      <div className="ashlogo">
+        <img className="ashash" src={Profile} alt='profile'></img>
+      </div>
+
+      <div className="right-container">
         <div className="text">
           <h1>Aspiring<br/>Front-End Web Developer</h1>
           <h2>Hello! I am Otchengco, Ashley G. <span><img className="phflag" src={PHFlag} alt='Philippine Flag'></img></span></h2>
@@ -25,10 +29,6 @@ const Header = () => {
           <button className="resume">RESUME</button>
           </a>
         </div>
-      </div>
-
-      <div className="ashlogo">
-        <img className="ashash" src={Profile} alt='profile'></img>
       </div>
                    
     </div>

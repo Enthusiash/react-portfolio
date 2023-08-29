@@ -8,9 +8,9 @@
     align-items: center;
     justify-content: center;
     background-color: #f9f9f9;
-    column-gap: 100px;
+    column-gap: 130px;
 }
-.left-container {
+.right-container {
     margin-bottom: 70px;
 }
 .phflag {
@@ -54,13 +54,25 @@
     background-color: #b08968;
 }
 @media (max-width: 414px) {
+    .main-container {
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 0;
+    }
+    .right-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
     .ashlogo .ashash {
-        width: 200px;
-        height: 200px;
-        margin-top: 60px;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 0px;
     }
     .text h1 {
-        font-size: 30px;
+        font-size: 24px;
         letter-spacing: 3px;
     }
     .text h2 {
@@ -68,10 +80,15 @@
         letter-spacing: 3px;
 
     }
-    .main-container {
-        height: 650px;
+    .phflag {
+        width: 20px;
+    }
+    .resume-btn {
+        display: flex;
+        justify-content: center;
     }
     .resume {
-        margin-top: 25px;
+        width: 70px;
+        height: 30px;
     }
 }
