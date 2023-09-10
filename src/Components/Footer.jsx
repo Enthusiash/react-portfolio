@@ -12,6 +12,7 @@ const Footer = () => {
     <div className="footer-section">
 
       <div className="section1">
+        
         <div className="copyright-logo">
           <img className="c-logo" src={Copyright} alt='copyright'></img>
         </div>
@@ -25,12 +26,12 @@ const Footer = () => {
           <p>ashleyotchengco@gmail.com / +63-912-217-1667</p>
           <a target="_blank" href="https://www.facebook.com/ashley.otchengco.9/"><img className="c-logo" src={Facebook} alt='facebook'></img></a>
           <a target="_blank" href="https://github.com/Enthusiash"><img className="c-logo" src={Github} alt='github'></img></a>
-          <a target="_blank" href="https://www.linkedin.com/in/ashley-otchengco-341901278/"><img className="c-logo" src={LinkedIn} alt='Linkeln'></img></a>
+          <a target="_blank" href="https://www.linkedin.com/in/ashley-otchengco-341901278/"><img className="c-logo" src={LinkedIn} alt='Linkedln'></img></a>
         </div>
       </div>
 
     </div>
-  ) 
+  )
 }
 
 export default Footer

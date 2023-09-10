@@ -27,7 +27,7 @@ const ScrollToTop = () => {
       className={`scroll-to-top ${isVisible ? 'show' : 'hide'}`}
       onClick={scrollToTop}
     >
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="none" stroke="#ddb892" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m112 244l144-144l144 144M256 120v292"/></svg>    </button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="none" stroke="#ddb892" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="m112 244l144-144l144 144M256 120v292" /></svg>    </button>
   );
 };
 
