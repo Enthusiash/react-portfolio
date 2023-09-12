@@ -7,7 +7,6 @@ import '../Styles/Home.css'
 
 // IMAGES //
 import Profile from '../assets/formalpic.png'
-import PHFlag from '../assets/philippines-flag-icon.png'
 
 const Header = () => {
 
@@ -20,8 +19,8 @@ const Header = () => {
 
       <div className="right-container">
         <div className="text">
-          <h1>Aspiring<br />Front-End Web Developer</h1>
-          <h2>Hello! I am Otchengco, Ashley G. <span><img className="phflag" src={PHFlag} alt='Philippine Flag'></img></span></h2>
+          <h1>Hello!<br />I am Otchengco, Ashley G.</h1>
+          <h2>Aspiring Front-End Web Developer</h2>
         </div>
 
         <div className="resume-btn">

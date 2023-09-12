@@ -13,10 +13,6 @@
 .right-container {
     margin-bottom: 70px;
 }
-.phflag {
-    width: 30px;
-    height: auto;
-}
 .ashlogo .ashash {
     width: 500px;
     height: auto;
@@ -29,7 +25,7 @@
 }
 .text h1 {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 7px;
+    letter-spacing: 8px;
     font-size: 60px;
     margin-bottom: 20px;
 }
@@ -79,9 +75,6 @@
         font-size: 12px;
         letter-spacing: 3px;
 
-    }
-    .phflag {
-        width: 20px;
     }
     .resume-btn {
         display: flex;
