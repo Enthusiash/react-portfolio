@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className="resume-btn">
           <a href={ResumeBTN} target='_blank'>
-            <button className="resume">RESUME</button>
+            <button className="resume">DOWNLOAD CV</button>
           </a>
         </div>
       </div>

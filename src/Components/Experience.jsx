@@ -43,9 +43,6 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="btn-btn">
-            <button className="button-view">VIEW</button>
-          </div>
         </div>
 
         <div className="second-container">
@@ -69,9 +66,6 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="btn-btn">
-            <button className="button-view">VIEW</button>
-          </div>
         </div>
 
         <div className="third-container">
@@ -93,9 +87,6 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="btn-btn">
-            <button className="button-view">VIEW</button>
-          </div>
         </div>
 
       </div>
