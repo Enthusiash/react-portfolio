@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ResumeBTN from '../assets/Otchengco-Ashley-G.pdf'
+import ResumeBTN from '../assets/RESUME_OtchengcoAshleyG.pdf'
 
 // STYLE //
 import '../Styles/Home.css'
